@@ -227,71 +227,71 @@
     "LAN": {
       "name": "Capital Region International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 42.7750417,
+        "longitude": -84.5916426
       }
     },
     "LAS": {
       "name": "McCarran International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 36.0840041,
+        "longitude": -115.1559276
       }
     },
     "LAX": {
       "name": "Los Angeles International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 33.9415933,
+        "longitude": -118.4107187
       }
     },
     "LEX": {
       "name": "Blue Grass Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 38.0377657,
+        "longitude": -84.604797
       }
     },
     "LGA": {
       "name": "LaGuardia Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 0.7769311,
+        "longitude": -73.8761546
       }
     },
     "LGW": {
       "name": "Gatwick Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 51.1536654,
+        "longitude": -0.1842516
       }
     },
     "LHR": {
       "name": "Heathrow Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 51.4700256,
+        "longitude": -0.4564842
       }
     },
     "LUX": {
       "name": "Luxembourg Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 49.6289037,
+        "longitude": 6.2125559
       }
     },
     "MAN": {
       "name": "Manchester Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 53.3588058,
+        "longitude": -2.274919
       }
     },
     "MIA": {
       "name": "Miami International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 25.7958698,
+        "longitude": -80.2892344
       }
     },
     "MCI": {
