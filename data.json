@@ -297,57 +297,57 @@
     "MCI": {
       "name": "Kansas City International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 39.2991222,
+        "longitude": -94.7129726
       }
     },
     "MCO": {
       "name": "Orlando International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 28.4311624,
+        "longitude": -81.310277
       }
     },
     "MSP": {
       "name": "Minneapolis - St Paul International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 44.8847592,
+        "longitude": -93.2244786
       }
     },
     "NAP": {
       "name": "Naples International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 40.8847533,
+        "longitude": 14.287049
       }
     },
     "OAK": {
       "name": "Oakland International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 37.7125731,
+        "longitude": -122.2219368
       }
     },
     "ORD": {
       "name": "Chicago O'Hare International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 41.9741665,
+        "longitude": -87.9095154
       }
     },
     "PDX": {
       "name": "Portland International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 45.5897731,
+        "longitude": -122.5972882
       }
     },
     "PHL": {
       "name": "Philadelphia International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 39.8744,
+        "longitude": -75.2446169
       }
     },
     "PIT": {
@@ -360,57 +360,57 @@
     "PVD": {
       "name": "T.F. Green International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 40.4957763,
+        "longitude": -80.2435053
       }
     },
     "SAN": {
       "name": "San Diego International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 32.7338051,
+        "longitude": -117.1954978
       }
     },
     "SAT": {
       "name": "San Antonio International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 29.5312019,
+        "longitude": -98.4705424
       }
     },
     "SDF": {
       "name": "Louisville International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 38.1756662,
+        "longitude": -85.7391171
       }
     },
     "SEA": {
       "name": "Seattle - Tacoma International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 47.4502535,
+        "longitude": -122.3110105
       }
     },
     "SFO": {
       "name": "San Francisco International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 37.6213171,
+        "longitude": -122.3811494
       }
     },
     "SIN": {
       "name": "Singaport Changi Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 1.3644256,
+        "longitude": 103.9893368
       }
     },
     "SJC": {
       "name": "Norman Y. Mineta San Jose International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 37.3639514,
+        "longitude": -121.9311315
       }
     },
     "SJU": {
