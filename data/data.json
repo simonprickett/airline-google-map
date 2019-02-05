@@ -353,15 +353,15 @@
     "PIT": {
       "name": "Pittsburgh International Airport",
       "location": {
-        "latitude": ,
-        "longitude":
+        "latitude": 40.4957722,
+        "longitude": -80.2435053
       }
     },
     "PVD": {
       "name": "T.F. Green International Airport",
       "location": {
-        "latitude": 40.4957763,
-        "longitude": -80.2435053
+        "latitude": 41.7245271,
+        "longitude": -71.4326002
       }
     },
     "SAN": {
