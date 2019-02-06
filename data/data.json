@@ -2,6 +2,7 @@
   "airports": {
     "AKL": {
       "name": "Auckland International Airport",
+      "shortName": "Auckland",
       "location": {
         "latitude": -37.0082433,
         "longitude": 174.7828471
@@ -9,6 +10,7 @@
     },
     "AMS": {
       "name": "Amsterdam Schipol Airport",
+      "shortName": "Amsterdam",
       "location": {
         "latitude": 52.3085543,
         "longitude": 4.7592543
@@ -16,6 +18,7 @@
     },
     "ATL": {
       "name": "Atlanta Hartsfield-Jackson International Airport",
+      "shortName": "Atlanta",
       "location": {
         "latitude": 33.6407326,
         "longitude": -84.4298888
@@ -23,6 +26,7 @@
     },
     "BGI": {
       "name": "Grantley Adams International Airport",
+      "shortName": "Barbados",
       "location": {
         "latitude": 13.07659,
         "longitude": -59.4899808
@@ -30,6 +34,7 @@
     },
     "BHM": {
       "name": "Birmingham-Shuttlesworth International Airport",
+      "shortName": "Birmingham",
       "location": {
         "latitude": 33.5624314,
         "longitude": -86.7563147
@@ -37,6 +42,7 @@
     },
     "BHX": {
       "name": "Birmingham Airport",
+      "shortName": "Birmingham",
       "location": {
         "latitude": 52.4523821,
         "longitude": -1.7456958
@@ -44,6 +50,7 @@
     },
     "BOG": {
       "name": "El Dorado International Airport",
+      "shortName": "Bogotá",
       "location": {
         "latitude": 4.7014128,
         "longitude": -74.1466856
@@ -51,6 +58,7 @@
     },
     "BOS": {
       "name": "Boston Logan International Airport",
+      "shortName": "Boston",
       "location": {
         "latitude": 42.3658907,
         "longitude": -71.0197357
@@ -58,6 +66,7 @@
     },
     "BRU": {
       "name": "Brussels Airport",
+      "shortName": "Brussels",
       "location": {
         "latitude": 50.900999,
         "longitude": 4.4833857
@@ -65,6 +74,7 @@
     },
     "BWI": {
       "name": "Baltimore-Washington International Airport",
+      "shortName": "Baltimore",
       "location": {
         "latitude": 39.1774042,
         "longitude": -76.6705809
@@ -72,6 +82,7 @@
     },
     "CHC": {
       "name": "Christchurch International Airport",
+      "shortName": "Christchurch",
       "location": {
         "latitude": -43.4863981,
         "longitude": 172.5346818
@@ -79,6 +90,7 @@
     },
     "CLE": {
       "name": "Cleveland Hopkins International Airport",
+      "shortName": "Cleveland",
       "location": {
         "latitude": 41.4057985,
         "longitude": -81.8560556
@@ -86,6 +98,7 @@
     },
     "CLT": {
       "name": "Charlotte Douglas International Airport",
+      "shortName": "Charlotte",
       "location": {
         "latitude": 35.2144026,
         "longitude": -80.9495033
@@ -93,6 +106,7 @@
     },
     "CMH": {
       "name": "John Glenn Columbus International Airport",
+      "shortName": "Columbus",
       "location": {
         "latitude": 39.9999399,
         "longitude": -82.8893654
@@ -100,6 +114,7 @@
     },
     "CPH": {
       "name": "Copenhagen Airport",
+      "shortName": "Copenhagen",
       "location": {
         "latitude": 55.617997,
         "longitude": 12.6485768
@@ -107,6 +122,7 @@
     },
     "CVG": {
       "name": "Cincinnati / Northern Kentucky International Airport",
+      "shortName": "Cnicinnati",
       "location": {
         "latitude": 39.0532746,
         "longitude": -84.6652052
@@ -114,6 +130,7 @@
     },
     "DAY": {
       "name": "Dayton International Airport",
+      "shortName": "Dayton",
       "location": {
         "latitude": 39.9025242,
         "longitude": -84.2239606
@@ -121,6 +138,7 @@
     },
     "DCA": {
       "name": "Reagan National Airport",
+      "shortName": "Washington Reagan",
       "location": {
         "latitude": 38.851242,
         "longitude": -77.0424202
@@ -128,13 +146,23 @@
     },
     "DEN": {
       "name": "Denver International Airport",
+      "shortName": "Denver",
       "location": {
         "latitude": 39.8560963,
         "longitude": -104.6759263
       }
     },
+    "DFW": {
+      "name": "Dallas / Fort Worth International Airport",
+      "shortName": "Dallas / Fort Worth",
+      "location": {
+        "latitude": 32.8998091,
+        "longitude": -97.0425239
+      }
+    },
     "DUB": {
       "name": "Dublin Airport",
+      "shortName": "Dublin",
       "location": {
         "latitude": 53.4264481,
         "longitude": -6.2520985
@@ -142,6 +170,7 @@
     },
     "DTW": {
       "name": "Detroit Metro Airport",
+      "shortName": "Detroit",
       "location": {
         "latitude": 42.2161722,
         "longitude": -83.3575729
@@ -149,6 +178,7 @@
     },
     "EMA": {
       "name": "East Midlands Airport",
+      "shortName": "East Midlands",
       "location": {
         "latitude": 52.829374,
         "longitude": -1.3343227
@@ -156,6 +186,7 @@
     },
     "EDI": {
       "name": "Edinburgh Airport",
+      "shortName": "Edinburgh",
       "location": {
         "latitude": 55.950785,
         "longitude": -3.3636419
@@ -163,6 +194,7 @@
     },
     "EWR": {
       "name": "Newark Liberty International Airport",
+      "shortName": "New York Newark",
       "location": {
         "latitude": 40.6895314,
         "longitude": -74.1766511
@@ -170,6 +202,7 @@
     },
     "FRA": {
       "name": "Frankfurt Airport",
+      "shortName": "Frankfurt",
       "location": {
         "latitude": 50.0379326,
         "longitude": 8.5599631
@@ -177,6 +210,7 @@
     },
     "GVA": {
       "name": "Geneva Airport",
+      "shortName": "Geneva",
       "location": {
         "latitude": 46.2370097,
         "longitude": 6.1069677
@@ -184,6 +218,7 @@
     },
     "HKG": {
       "name": "Hong Kong International Airport",
+      "shortName": "Hong Kong",
       "location": {
         "latitude": 22.308047,
         "longitude": 113.9162921
@@ -191,6 +226,7 @@
     },
     "IAD": {
       "name": "Dulles International Airport",
+      "shortName": "Washington Dulles",
       "location": {
         "latitude": 38.9531162,
         "longitude": -77.4587275
@@ -198,6 +234,7 @@
     },
     "IAH": {
       "name": "George Bush Intercontinental Airport",
+      "shortName": "Houston Bush",
       "location": {
         "latitude": 29.9902199,
         "longitude": -95.3389714
@@ -205,6 +242,7 @@
     },
     "IBZ": {
       "name": "Ibiza Airport",
+      "shortName": "Ibiza",
       "location": {
         "latitude": 38.8748594,
         "longitude": 1.3690345
@@ -212,6 +250,7 @@
     },
     "JFK": {
       "name": "John F. Kennedy International Airport",
+      "shortName": "New York JFK",
       "location": {
         "latitude": 40.6413111,
         "longitude": -73.7803278
@@ -219,6 +258,7 @@
     },
     "KEF": {
       "name": "Keflavik International Airport",
+      "shortName": "Reykjavik",
       "location": {
         "latitude": 63.9786029,
         "longitude": -22.6372247
@@ -226,6 +266,7 @@
     },
     "LAN": {
       "name": "Capital Region International Airport",
+      "shortName": "Lansing",
       "location": {
         "latitude": 42.7750417,
         "longitude": -84.5916426
@@ -233,6 +274,7 @@
     },
     "LAS": {
       "name": "McCarran International Airport",
+      "shortName": "Las Vegas",
       "location": {
         "latitude": 36.0840041,
         "longitude": -115.1559276
@@ -240,6 +282,7 @@
     },
     "LAX": {
       "name": "Los Angeles International Airport",
+      "shortName": "Los Angeles",
       "location": {
         "latitude": 33.9415933,
         "longitude": -118.4107187
@@ -247,6 +290,7 @@
     },
     "LEX": {
       "name": "Blue Grass Airport",
+      "shortName": "Lexington",
       "location": {
         "latitude": 38.0377657,
         "longitude": -84.604797
@@ -254,13 +298,15 @@
     },
     "LGA": {
       "name": "LaGuardia Airport",
+      "shortName": "New York La Guardia",
       "location": {
-        "latitude": 0.7769311,
+        "latitude": 40.7769271,
         "longitude": -73.8761546
       }
     },
     "LGW": {
       "name": "Gatwick Airport",
+      "shortName": "London Gatwick",
       "location": {
         "latitude": 51.1536654,
         "longitude": -0.1842516
@@ -268,6 +314,7 @@
     },
     "LHR": {
       "name": "Heathrow Airport",
+      "shortName": "London Heathrow",
       "location": {
         "latitude": 51.4700256,
         "longitude": -0.4564842
@@ -275,6 +322,7 @@
     },
     "LUX": {
       "name": "Luxembourg Airport",
+      "shortName": "Luxembourg",
       "location": {
         "latitude": 49.6289037,
         "longitude": 6.2125559
@@ -282,6 +330,7 @@
     },
     "MAN": {
       "name": "Manchester Airport",
+      "shortName": "Manchester",
       "location": {
         "latitude": 53.3588058,
         "longitude": -2.274919
@@ -289,6 +338,7 @@
     },
     "MIA": {
       "name": "Miami International Airport",
+      "shortName": "Miami",
       "location": {
         "latitude": 25.7958698,
         "longitude": -80.2892344
@@ -296,6 +346,7 @@
     },
     "MCI": {
       "name": "Kansas City International Airport",
+      "shortName": "Kansas City",
       "location": {
         "latitude": 39.2991222,
         "longitude": -94.7129726
@@ -303,6 +354,7 @@
     },
     "MCO": {
       "name": "Orlando International Airport",
+      "shortName": "Orlando",
       "location": {
         "latitude": 28.4311624,
         "longitude": -81.310277
@@ -310,13 +362,23 @@
     },
     "MSP": {
       "name": "Minneapolis - St Paul International Airport",
+      "shortName": "Minneapolis - St Paul",
       "location": {
         "latitude": 44.8847592,
         "longitude": -93.2244786
       }
     },
+    "MSY": {
+      "name": "Louis Armstrong New Orleans International Airport",
+      "shortName": "New Orleans",
+      "location": {
+        "latitude": 29.9922012,
+        "longitude": -90.2611999
+      }
+    },
     "NAP": {
       "name": "Naples International Airport",
+      "shortName": "Naples",
       "location": {
         "latitude": 40.8847533,
         "longitude": 14.287049
@@ -324,6 +386,7 @@
     },
     "OAK": {
       "name": "Oakland International Airport",
+      "shortName": "Oakland",
       "location": {
         "latitude": 37.7125731,
         "longitude": -122.2219368
@@ -331,6 +394,7 @@
     },
     "ORD": {
       "name": "Chicago O'Hare International Airport",
+      "shortName": "Chicago O'Hare",
       "location": {
         "latitude": 41.9741665,
         "longitude": -87.9095154
@@ -338,6 +402,7 @@
     },
     "PDX": {
       "name": "Portland International Airport",
+      "shortName": "Portland",
       "location": {
         "latitude": 45.5897731,
         "longitude": -122.5972882
@@ -345,6 +410,7 @@
     },
     "PHL": {
       "name": "Philadelphia International Airport",
+      "shortName": "Philadelphia",
       "location": {
         "latitude": 39.8744,
         "longitude": -75.2446169
@@ -352,6 +418,7 @@
     },
     "PIT": {
       "name": "Pittsburgh International Airport",
+      "shortName": "Pittsburgh",
       "location": {
         "latitude": 40.4957722,
         "longitude": -80.2435053
@@ -359,6 +426,7 @@
     },
     "PVD": {
       "name": "T.F. Green International Airport",
+      "shortName": "Providence",
       "location": {
         "latitude": 41.7245271,
         "longitude": -71.4326002
@@ -366,6 +434,7 @@
     },
     "SAN": {
       "name": "San Diego International Airport",
+      "shortName": "San Diego",
       "location": {
         "latitude": 32.7338051,
         "longitude": -117.1954978
@@ -373,6 +442,7 @@
     },
     "SAT": {
       "name": "San Antonio International Airport",
+      "shortName": "San Antonio",
       "location": {
         "latitude": 29.5312019,
         "longitude": -98.4705424
@@ -380,6 +450,7 @@
     },
     "SDF": {
       "name": "Louisville International Airport",
+      "shortName": "Louisville",
       "location": {
         "latitude": 38.1756662,
         "longitude": -85.7391171
@@ -387,6 +458,7 @@
     },
     "SEA": {
       "name": "Seattle - Tacoma International Airport",
+      "shortName": "Seattle",
       "location": {
         "latitude": 47.4502535,
         "longitude": -122.3110105
@@ -394,6 +466,7 @@
     },
     "SFO": {
       "name": "San Francisco International Airport",
+      "shortName": "San Francisco",
       "location": {
         "latitude": 37.6213171,
         "longitude": -122.3811494
@@ -401,6 +474,7 @@
     },
     "SIN": {
       "name": "Singaport Changi Airport",
+      "shortName": "Singapore",
       "location": {
         "latitude": 1.3644256,
         "longitude": 103.9893368
@@ -408,6 +482,7 @@
     },
     "SJC": {
       "name": "Norman Y. Mineta San Jose International Airport",
+      "shortName": "San Jose",
       "location": {
         "latitude": 37.3639514,
         "longitude": -121.9311315
@@ -415,6 +490,7 @@
     },
     "SJU": {
       "name": "Luis Muñoz Marín International Airport",
+      "shortName": "San Juan",
       "location": {
         "latitude": 18.4373553,
         "longitude": -66.0066188
@@ -422,6 +498,7 @@
     },
     "SNA": {
       "name": "John Wayne Airport",
+      "shortName": "Orange County",
       "location": {
         "latitude": 33.6761901,
         "longitude": -117.8696646
@@ -429,6 +506,7 @@
     },
     "SNN": {
       "name": "Shannon Airport",
+      "shortName": "Shannon",
       "location": {
         "latitude": 52.695926,
         "longitude": -8.9262256
@@ -436,6 +514,7 @@
     },
     "SYD": {
       "name": "Sydney Airport",
+      "shortName": "Sydney",
       "location": {
         "latitude": -33.9399228,
         "longitude": 151.1730877
@@ -443,6 +522,7 @@
     },
     "TLH": {
       "name": "Tallahassee International Airport",
+      "shortName": "Tallahassee",
       "location": {
         "latitude": 30.3954074,
         "longitude": -84.3472405
@@ -450,6 +530,7 @@
     },
     "TPA": {
       "name": "Tampa International Airport",
+      "shortName": "Tampa",
       "location": {
         "latitude": 27.9834776,
         "longitude": -82.5392668
@@ -457,6 +538,7 @@
     },
     "UVF": {
       "name": "Hewanorra International Airport",
+      "shortName": "St Lucia",
       "location": {
         "latitude": 13.733375,
         "longitude": -60.9524777
@@ -464,6 +546,7 @@
     },
     "WLG": {
       "name": "Wellington International Airport",
+      "shortName": "Wellington",
       "location": {
         "latitude": -41.3275941,
         "longitude": 174.8054097
@@ -471,6 +554,7 @@
     },
     "ZQN": {
       "name": "Queenstown Airport",
+      "shortName": "Queenstown",
       "location": {
         "latitude": -45.0209721,
         "longitude": 168.7377341
@@ -482,163 +566,163 @@
         "WLG", 
         "AKL" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "WLG", 
         "CHC" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "WLG", 
         "ZQN" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "WLG", 
         "SYD" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "EMA", 
         "EDI" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "EMA", 
         "IBZ" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "EMA", 
         "BRU" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "EMA", 
         "SNN" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LGW", 
         "SNN" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LGW", 
         "NAP" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LGW", 
         "ATL" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LGW", 
         "OAK" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LGW", 
         "LAS" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "BHX", 
         "DUB" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "BHX", 
         "AMS" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "BHX", 
         "FRA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "MAN", 
         "KEF" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "MAN", 
         "SJU" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "MAN", 
         "UVF" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LHR", 
         "LUX" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LHR", 
         "CPH" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LHR", 
         "AMS" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LHR", 
         "FRA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LHR", 
         "SIN" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LHR", 
         "MIA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LHR", 
         "PHL" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LHR", 
         "JFK" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LHR", 
@@ -650,583 +734,577 @@
         "AMS", 
         "KEF" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "FRA", 
         "GVA" 
       ],
-      "status": "completed"
-    },
-    { "airports": [ 
-        "FRA", 
-        "BHX" 
-      ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SJU", 
         "BGI" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "BGI", 
         "UVF" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LAX", 
         "SYD" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LAX", 
         "CLT" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LAX", 
         "LAS" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LAX", 
         "SJC" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LAX", 
         "SAT" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LAX", 
         "DTW" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SFO", 
         "AKL" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SFO", 
         "HKG" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SFO", 
         "LHR" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SFO", 
         "PHL" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SFO", 
         "SAN" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SFO", 
         "EWR" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SFO", 
         "SJC" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SFO", 
         "PDX" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SFO", 
         "SEA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "KEF" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "BOG" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "LHR" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "DUB" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "FRA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "GVA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "ORD" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "JFK" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "LGA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "CLE" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "SFO" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "LAX" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "LAS" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "SJC" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "BOS" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "CLT" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "DEN" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "PIT" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "CVG" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "TPA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "MCO" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "MSP" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "SAN" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "IAH" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "SAT" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "DTW" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "PVD" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAD", 
         "DFW" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "DCA", 
         "DEN" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "DCA", 
         "LGA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "DCA", 
         "JFK" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "DCA", 
         "CMH" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "DCA", 
         "ORD" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "DCA", 
         "ATL" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "DCA", 
         "MCI" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "MCO", 
         "IAH" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "IAH", 
         "LGA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "BWI", 
         "PHL" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "BWI", 
         "DEN" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "BWI", 
         "IAH" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "PHL", 
         "DTW" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "DTW", 
         "CLT" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "CLT", 
         "EWR" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SJC", 
         "IAH" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SJC", 
         "DEN" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SJC", 
         "SNA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SJC", 
         "SAN" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SJC", 
         "LAS" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "CLE", 
         "PIT" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "ORD", 
         "FRA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "ORD", 
         "LAN" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "LEX", 
         "ORD" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "ORD", 
         "CVG" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "CVG", 
         "MSP" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SEA", 
         "CVG" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SAN", 
         "SEA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SAN", 
         "MSP" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SAN", 
         "MCI" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SAN", 
         "JFK" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SAN", 
         "LAX" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SAN", 
         "ORD" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SAN", 
         "DEN" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SAN", 
         "IAH" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SAN", 
         "ATL" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SAN", 
         "EWR" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SAN", 
         "DFW" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SAN", 
         "LAS" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SAN", 
         "OAK" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "ATL", 
         "TLH" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "PHL", 
         "MSY" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "MSY", 
         "MIA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "TLH", 
         "TPA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "CLT", 
         "BHM" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "ATL", 
         "MIA" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "ATL", 
         "DAY" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "ATL", 
         "SDF" 
       ],
-      "status": "completed"
+      "status": "current"
     },
     { "airports": [ 
         "SIN",
         "HKG" 
       ],
-      "status": "completed"
+      "status": "current"
     }
   ]
 }
