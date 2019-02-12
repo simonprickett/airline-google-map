@@ -850,6 +850,12 @@
       ],
       "status": "current"
     },
+    { "airports": [
+        "IAD",
+        "ATL"
+      ],
+      "status": "current"
+    },
     { "airports": [ 
         "IAD", 
         "BOG" 
@@ -1065,6 +1071,12 @@
         "LGA" 
       ],
       "status": "current"
+    },
+    {
+      "airports": [
+        "IAH",
+        "LHR"
+      ]
     },
     { "airports": [ 
         "BWI", 

@@ -5,10 +5,14 @@ const loadDataFile = async () => {
     return response.json()
 }
 
+
 window.onload = async () => {
     const data = await loadDataFile()
     const airports = data.airports
     const flights = data.flights
+
+    let currentLines = []
+    let currentInfoWindow
 
     const getDestinationsForAirport = (airportCode) => {
         const destinations = []
@@ -64,36 +68,65 @@ window.onload = async () => {
         })
 
         const marker = new google.maps.Marker({
+            title: airport.name,
+            airportCode,
+            destinations,
+            infoWindow,
+            map,
             position: {
                 lat: airport.location.latitude,
                 lng: airport.location.longitude
             }, 
-            title: airport.name,
-            airportCode: airportCode,
-            destinations: destinations,
-            map: map,
             icon: {
                 url: `http://maps.google.com/mapfiles/ms/icons/${markerColor}-dot.png`
             }
         })
 
         google.maps.event.addListener(marker, 'click', () => {
-            infoWindow.open(map,marker)   
+            for (const polyLine of currentLines) {
+                polyLine.setMap(null)
+            }
+
+            currentLines = []
             
-            // TODO draw lines to destinations...
+            if (currentInfoWindow) {
+                currentInfoWindow.close()
+            }
+
+            marker.infoWindow.open(map,marker)   
+            currentInfoWindow = marker.infoWindow
+            
             for (const destination of marker.destinations) {
-                console.log(`Adding poly to ${destination}`)
                 const geodesicPoly = new google.maps.Polyline({
-                    strokeColor: '#CC0099',
-                    strokeOpacity: 1.0,
-                    strokeWeight: 3,
+                    strokeColor: '#0000DD',
+                    strokeOpacity: 0.5,
+                    strokeWeight: 2,
                     geodesic: true,
                     map: map,
                     path: [ marker.getPosition(), airports[destination].marker.getPosition()]
                 })
+
+                currentLines.push(geodesicPoly)
             }
         })
 
         airport.marker = marker
+    }
+
+    for (const airportCode in airports) {
+        const airport = airports[airportCode]
+
+        for (const destination of airport.marker.destinations) {
+            const geodesicPoly = new google.maps.Polyline({
+                strokeColor: '#0000DD',
+                strokeOpacity: 0.5,
+                strokeWeight: 1,
+                geodesic: true,
+                map: map,
+                path: [ airport.marker.getPosition(), airports[destination].marker.getPosition()]
+            })
+
+            currentLines.push(geodesicPoly)
+        }
     }
 }
