@@ -766,6 +766,12 @@
       ],
       "status": "current"
     },
+    { "airports": [
+        "LAX",
+        "LHR"
+      ],
+      "status": "current"
+    },
     { "airports": [ 
         "LAX", 
         "CLT" 
