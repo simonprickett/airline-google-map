@@ -496,6 +496,14 @@
         "longitude": -66.0066188
       }
     },
+    "SLC": {
+      "name": "Salt Lake City International Airport",
+      "shortName": "Salt Lake City",
+      "location": {
+        "latitude": 40.7899404,
+        "longitude": -111.9812593
+      }
+    },
     "SNA": {
       "name": "John Wayne Airport",
       "shortName": "Orange County",
@@ -1120,11 +1128,37 @@
       ],
       "status": "current"
     },
+    {
+      "airports": [
+        "DTW",
+        "SAN"
+      ],
+      "status": "projected"
+    },
+    {
+      "airports": [
+        "DTW",
+        "CVG"
+      ],
+      "status": "projected"
+    },    
     { "airports": [ 
         "CLT", 
         "EWR" 
       ],
       "status": "current"
+    },
+    { "airports": [ 
+        "SAN", 
+        "SLC" 
+      ],
+      "status": "projected"
+    },
+    { "airports": [ 
+        "CVG", 
+        "SLC" 
+      ],
+      "status": "projected"
     },
     { "airports": [ 
         "SJC", 
