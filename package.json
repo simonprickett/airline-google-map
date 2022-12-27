@@ -1,0 +1,25 @@
+{
+  "name": "airline-google-map",
+  "version": "1.0.0",
+  "description": "Airline Google Map project",
+  "main": "build.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "node node_modules/http-server/bin/http-server ./dist -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonprickett/airline-google-map.git"
+  },
+  "author": "Simon Prickett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonprickett/airline-google-map/issues"
+  },
+  "homepage": "https://github.com/simonprickett/airline-google-map#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "http-server": "^14.1.1"
+  }
+}
