@@ -3,4 +3,6 @@
 *.bak
 *.log
 *.swp
-map_license.md
+.env
+dist/
+node_modules/
