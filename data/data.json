@@ -8,6 +8,14 @@
         "longitude": 174.7828471
       }
     },
+    "AUS": {
+      "name": "Austin-Bergstrom International Airport",
+      "shortName": "Austin",
+      "location": {
+        "latitude": 30.1974757,
+        "longitude": -97.6685416
+      }
+    },
     "AMS": {
       "name": "Amsterdam Schipol Airport",
       "shortName": "Amsterdam",
@@ -174,6 +182,14 @@
       "location": {
         "latitude": 42.2161722,
         "longitude": -83.3575729
+      }
+    },
+    "DXB": {
+      "name": "Dubai International",
+      "shortName": "Dubai",
+      "location": {
+        "latitude": 25.2531793,
+        "longitude": 55.3634841
       }
     },
     "EMA": {
@@ -570,525 +586,640 @@
     }
   },
   "flights": [
-    { "airports": [ 
-        "WLG", 
-        "AKL" 
+    {
+      "airports": [
+        "WLG",
+        "AKL"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "WLG", 
-        "CHC" 
+    {
+      "airports": [
+        "WLG",
+        "CHC"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "WLG", 
-        "ZQN" 
+    {
+      "airports": [
+        "WLG",
+        "ZQN"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "WLG", 
-        "SYD" 
+    {
+      "airports": [
+        "WLG",
+        "SYD"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "EMA", 
-        "EDI" 
+    {
+      "airports": [
+        "EMA",
+        "EDI"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "EMA", 
-        "IBZ" 
+    {
+      "airports": [
+        "EMA",
+        "IBZ"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "EMA", 
-        "BRU" 
+    {
+      "airports": [
+        "EMA",
+        "BRU"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "EMA", 
-        "SNN" 
+    {
+      "airports": [
+        "EMA",
+        "SNN"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LGW", 
-        "SNN" 
+    {
+      "airports": [
+        "LGW",
+        "SNN"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LGW", 
-        "NAP" 
+    {
+      "airports": [
+        "LGW",
+        "NAP"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LGW", 
-        "ATL" 
+    {
+      "airports": [
+        "LGW",
+        "ATL"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LGW", 
-        "OAK" 
+    {
+      "airports": [
+        "LGW",
+        "OAK"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LGW", 
-        "LAS" 
+    {
+      "airports": [
+        "LGW",
+        "LAS"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "BHX", 
-        "DUB" 
+    {
+      "airports": [
+        "BHX",
+        "DUB"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "BHX", 
-        "AMS" 
+    {
+      "airports": [
+        "BHX",
+        "AMS"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "BHX", 
-        "FRA" 
+    {
+      "airports": [
+        "BHX",
+        "FRA"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "MAN", 
-        "KEF" 
+    {
+      "airports": [
+        "MAN",
+        "KEF"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "MAN", 
-        "SJU" 
+    {
+      "airports": [
+        "MAN",
+        "SJU"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "MAN", 
-        "UVF" 
+    {
+      "airports": [
+        "MAN",
+        "UVF"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LHR", 
-        "LUX" 
+    {
+      "airports": [
+        "LHR",
+        "LUX"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LHR", 
-        "CPH" 
+    {
+      "airports": [
+        "LHR",
+        "CPH"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LHR", 
-        "AMS" 
+    {
+      "airports": [
+        "LHR",
+        "AMS"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LHR", 
-        "ATL" 
+    {
+      "airports": [
+        "LHR",
+        "ATL"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LHR", 
-        "FRA" 
+    {
+      "airports": [
+        "LHR",
+        "FRA"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LHR", 
-        "SIN" 
+    {
+      "airports": [
+        "LHR",
+        "SIN"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LHR", 
-        "MIA" 
+    {
+      "airports": [
+        "LHR",
+        "MIA"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LHR", 
-        "PHL" 
+    {
+      "airports": [
+        "LHR",
+        "PHL"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LHR", 
-        "JFK" 
+    {
+      "airports": [
+        "LHR",
+        "JFK"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LHR", 
-        "ORD" 
-      ],
-      "status": "projected"
-    },
-    { "airports": [ 
-        "AMS", 
-        "KEF" 
+    {
+      "airports": [
+        "LHR",
+        "ORD"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "FRA", 
-        "GVA" 
+    {
+      "airports": [
+        "LHR",
+        "AUS"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SJU", 
-        "BGI" 
+    {
+      "airports": [
+        "LHR",
+        "DXB"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "BGI", 
-        "UVF" 
+    {
+      "airports": [
+        "LHR",
+        "BOS"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LAX", 
-        "SYD" 
+    {
+      "airports": [
+        "LHR",
+        "SEA"
       ],
       "status": "current"
     },
-    { "airports": [
+    {
+      "airports": [
+        "AMS",
+        "KEF"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "FRA",
+        "GVA"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "SJU",
+        "BGI"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "BGI",
+        "UVF"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "LAX",
+        "SYD"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
         "LAX",
         "LHR"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LAX", 
-        "CLT" 
+    {
+      "airports": [
+        "LAX",
+        "CLT"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LAX", 
-        "LAS" 
+    {
+      "airports": [
+        "LAX",
+        "LAS"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LAX", 
-        "SJC" 
+    {
+      "airports": [
+        "LAX",
+        "SJC"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LAX", 
-        "SAT" 
+    {
+      "airports": [
+        "LAX",
+        "SAT"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LAX", 
-        "DTW" 
+    {
+      "airports": [
+        "LAX",
+        "DTW"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SFO", 
-        "AKL" 
+    {
+      "airports": [
+        "SFO",
+        "AKL"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SFO", 
-        "HKG" 
+    {
+      "airports": [
+        "SFO",
+        "HKG"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SFO", 
-        "LHR" 
+    {
+      "airports": [
+        "SFO",
+        "LHR"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SFO", 
-        "PHL" 
+    {
+      "airports": [
+        "SFO",
+        "PHL"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SFO", 
-        "SAN" 
+    {
+      "airports": [
+        "SFO",
+        "SAN"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SFO", 
-        "EWR" 
+    {
+      "airports": [
+        "SFO",
+        "EWR"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SFO", 
-        "SJC" 
+    {
+      "airports": [
+        "SFO",
+        "SJC"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SFO", 
-        "PDX" 
+    {
+      "airports": [
+        "SFO",
+        "PDX"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SFO", 
-        "SEA" 
+    {
+      "airports": [
+        "SFO",
+        "SEA"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "KEF" 
+    {
+      "airports": [
+        "IAD",
+        "KEF"
       ],
       "status": "current"
     },
-    { "airports": [
+    {
+      "airports": [
         "IAD",
         "ATL"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "BOG" 
+    {
+      "airports": [
+        "IAD",
+        "BOG"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "LHR" 
+    {
+      "airports": [
+        "IAD",
+        "LHR"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "DUB" 
+    {
+      "airports": [
+        "IAD",
+        "DUB"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "FRA" 
+    {
+      "airports": [
+        "IAD",
+        "FRA"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "GVA" 
+    {
+      "airports": [
+        "IAD",
+        "GVA"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "ORD" 
+    {
+      "airports": [
+        "IAD",
+        "ORD"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "JFK" 
+    {
+      "airports": [
+        "IAD",
+        "JFK"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "LGA" 
+    {
+      "airports": [
+        "IAD",
+        "LGA"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "CLE" 
+    {
+      "airports": [
+        "IAD",
+        "CLE"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "SFO" 
+    {
+      "airports": [
+        "IAD",
+        "SFO"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "LAX" 
+    {
+      "airports": [
+        "IAD",
+        "LAX"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "LAS" 
+    {
+      "airports": [
+        "IAD",
+        "LAS"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "SJC" 
+    {
+      "airports": [
+        "IAD",
+        "SJC"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "BOS" 
+    {
+      "airports": [
+        "IAD",
+        "BOS"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "CLT" 
+    {
+      "airports": [
+        "IAD",
+        "CLT"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "DEN" 
+    {
+      "airports": [
+        "IAD",
+        "DEN"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "PIT" 
+    {
+      "airports": [
+        "IAD",
+        "PIT"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "CVG" 
+    {
+      "airports": [
+        "IAD",
+        "CVG"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "TPA" 
+    {
+      "airports": [
+        "IAD",
+        "TPA"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "MCO" 
+    {
+      "airports": [
+        "IAD",
+        "MCO"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "MSP" 
+    {
+      "airports": [
+        "IAD",
+        "MSP"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "SAN" 
+    {
+      "airports": [
+        "IAD",
+        "SAN"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "IAH" 
+    {
+      "airports": [
+        "IAD",
+        "IAH"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "SAT" 
+    {
+      "airports": [
+        "IAD",
+        "SAT"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "DTW" 
+    {
+      "airports": [
+        "IAD",
+        "DTW"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "PVD" 
+    {
+      "airports": [
+        "IAD",
+        "PVD"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAD", 
-        "DFW" 
+    {
+      "airports": [
+        "IAD",
+        "DFW"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "DCA", 
-        "DEN" 
+    {
+      "airports": [
+        "DCA",
+        "DEN"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "DCA", 
-        "LGA" 
+    {
+      "airports": [
+        "DCA",
+        "LGA"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "DCA", 
-        "JFK" 
+    {
+      "airports": [
+        "DCA",
+        "JFK"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "DCA", 
-        "CMH" 
+    {
+      "airports": [
+        "DCA",
+        "CMH"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "DCA", 
-        "ORD" 
+    {
+      "airports": [
+        "DCA",
+        "ORD"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "DCA", 
-        "ATL" 
+    {
+      "airports": [
+        "DCA",
+        "ATL"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "DCA", 
-        "MCI" 
+    {
+      "airports": [
+        "DCA",
+        "MCI"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "MCO", 
-        "IAH" 
+    {
+      "airports": [
+        "MCO",
+        "IAH"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "IAH", 
-        "LGA" 
+    {
+      "airports": [
+        "IAH",
+        "LGA"
       ],
       "status": "current"
     },
@@ -1098,33 +1229,38 @@
         "LHR"
       ]
     },
-    { "airports": [ 
-        "BWI", 
-        "PHL" 
+    {
+      "airports": [
+        "BWI",
+        "PHL"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "BWI", 
-        "DEN" 
+    {
+      "airports": [
+        "BWI",
+        "DEN"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "BWI", 
-        "IAH" 
+    {
+      "airports": [
+        "BWI",
+        "IAH"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "PHL", 
-        "DTW" 
+    {
+      "airports": [
+        "PHL",
+        "DTW"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "DTW", 
-        "CLT" 
+    {
+      "airports": [
+        "DTW",
+        "CLT"
       ],
       "status": "current"
     },
@@ -1133,234 +1269,306 @@
         "DTW",
         "SAN"
       ],
-      "status": "projected"
+      "status": "current"
     },
     {
       "airports": [
         "DTW",
         "CVG"
       ],
-      "status": "projected"
-    },    
-    { "airports": [ 
-        "CLT", 
-        "EWR" 
+      "status": "current"
+    },
+    {
+      "airports": [
+        "DTW",
+        "SLC"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SAN", 
-        "SLC" 
-      ],
-      "status": "projected"
-    },
-    { "airports": [ 
-        "CVG", 
-        "SLC" 
-      ],
-      "status": "projected"
-    },
-    { "airports": [ 
-        "SJC", 
-        "IAH" 
+    {
+      "airports": [
+        "CLT",
+        "EWR"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SJC", 
-        "DEN" 
+    {
+      "airports": [
+        "SAN",
+        "SLC"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SJC", 
-        "SNA" 
+    {
+      "airports": [
+        "CVG",
+        "SLC"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SJC", 
-        "SAN" 
+    {
+      "airports": [
+        "SJC",
+        "IAH"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SJC", 
-        "LAS" 
+    {
+      "airports": [
+        "SJC",
+        "DEN"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "CLE", 
-        "PIT" 
+    {
+      "airports": [
+        "SJC",
+        "SNA"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "ORD", 
-        "FRA" 
+    {
+      "airports": [
+        "SJC",
+        "SAN"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "ORD", 
-        "LAN" 
+    {
+      "airports": [
+        "SJC",
+        "LAS"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "LEX", 
-        "ORD" 
+    {
+      "airports": [
+        "CLE",
+        "PIT"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "ORD", 
-        "CVG" 
+    {
+      "airports": [
+        "ORD",
+        "FRA"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "CVG", 
-        "MSP" 
+    {
+      "airports": [
+        "ORD",
+        "LAN"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SEA", 
-        "CVG" 
+    {
+      "airports": [
+        "LEX",
+        "ORD"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SAN", 
-        "SEA" 
+    {
+      "airports": [
+        "ORD",
+        "CVG"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SAN", 
-        "MSP" 
+    {
+      "airports": [
+        "CVG",
+        "MSP"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SAN", 
-        "MCI" 
+    {
+      "airports": [
+        "SEA",
+        "CVG"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SAN", 
-        "JFK" 
+    {
+      "airports": [
+        "SAN",
+        "SEA"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SAN", 
-        "LAX" 
+    {
+      "airports": [
+        "SEA",
+        "BOS"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SAN", 
-        "ORD" 
+    {
+      "airports": [
+        "SAN",
+        "MSP"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SAN", 
-        "DEN" 
+    {
+      "airports": [
+        "SAN",
+        "MCI"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SAN", 
-        "IAH" 
+    {
+      "airports": [
+        "SAN",
+        "JFK"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SAN", 
-        "ATL" 
+    {
+      "airports": [
+        "SAN",
+        "LAX"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SAN", 
-        "EWR" 
+    {
+      "airports": [
+        "SAN",
+        "ORD"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SAN", 
-        "DFW" 
+    {
+      "airports": [
+        "SAN",
+        "DEN"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SAN", 
-        "LAS" 
+    {
+      "airports": [
+        "SAN",
+        "IAH"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "SAN", 
-        "OAK" 
+    {
+      "airports": [
+        "SAN",
+        "ATL"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "ATL", 
-        "TLH" 
+    {
+      "airports": [
+        "SAN",
+        "EWR"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "PHL", 
-        "MSY" 
+    {
+      "airports": [
+        "SAN",
+        "DFW"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "MSY", 
-        "MIA" 
+    {
+      "airports": [
+        "SAN",
+        "LAS"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "TLH", 
-        "TPA" 
+    {
+      "airports": [
+        "SAN",
+        "DTW"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "CLT", 
-        "BHM" 
+    {
+      "airports": [
+        "SAN",
+        "SLC"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "ATL", 
-        "MIA" 
+    {
+      "airports": [
+        "SAN",
+        "OAK"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "ATL", 
-        "DAY" 
+    {
+      "airports": [
+        "ATL",
+        "TLH"
       ],
       "status": "current"
     },
-    { "airports": [ 
-        "ATL", 
-        "SDF" 
+    {
+      "airports": [
+        "PHL",
+        "MSY"
       ],
       "status": "current"
     },
-    { "airports": [ 
+    {
+      "airports": [
+        "MSY",
+        "MIA"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "TLH",
+        "TPA"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "CLT",
+        "BHM"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "ATL",
+        "MIA"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "ATL",
+        "DAY"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "ATL",
+        "SDF"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "ATL",
+        "AUS"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
         "SIN",
-        "HKG" 
+        "HKG"
       ],
       "status": "current"
     }
