@@ -49,10 +49,10 @@ async function showAirlineMap() {
     let markerColor;
     let airportType;
 
-    if (destinations.length > MAIN_HUB_NUM_DESTINATIONS) {
+    if (destinations.length >= MAIN_HUB_NUM_DESTINATIONS) {
       markerColor = 'red';
       airportType = 'Main Hub';
-    } else if (destinations.length > REGIONAL_HUB_NUM_DESTINATIONS) {
+    } else if (destinations.length >= REGIONAL_HUB_NUM_DESTINATIONS) {
       markerColor = 'green';
       airportType = 'Regional Hub';
     } else {
