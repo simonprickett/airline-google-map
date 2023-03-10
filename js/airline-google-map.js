@@ -61,7 +61,7 @@ async function showAirlineMap() {
 
     const infoWindow = new google.maps.InfoWindow({
       content: `<div>${airport.name}</div><hr/><p>We fly from ${airportType ? 'our ' + airportType + ' at ' : ''} ${airport.shortName} to:</p>${renderDestinations(destinations)}`
-    })
+    });
 
     const marker = new google.maps.Marker({
       title: airport.name,
