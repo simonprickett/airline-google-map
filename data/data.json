@@ -1567,6 +1567,13 @@
     },
     {
       "airports": [
+        "JFK",
+        "AUS"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
         "SIN",
         "HKG"
       ],
