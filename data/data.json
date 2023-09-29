@@ -750,6 +750,13 @@
     {
       "airports": [
         "LHR",
+        "MSP"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "LHR",
         "FRA"
       ],
       "status": "current"
@@ -1568,6 +1575,13 @@
     {
       "airports": [
         "JFK",
+        "AUS"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "MSP",
         "AUS"
       ],
       "status": "current"
