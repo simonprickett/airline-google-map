@@ -1,5 +1,13 @@
 {
   "airports": {
+    "AGP": {
+      "name": "Málaga Costa del Sol Airport",
+      "shortName": "Málaga",
+      "location": {
+        "latitude": 36.676966394709325,
+        "longitude": -4.493343890523211
+      }
+    },
     "AKL": {
       "name": "Auckland International Airport",
       "shortName": "Auckland",
@@ -647,6 +655,13 @@
       "airports": [
         "EMA",
         "SNN"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "EMA",
+        "AGP"
       ],
       "status": "current"
     },
