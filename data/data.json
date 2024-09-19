@@ -544,6 +544,14 @@
         "longitude": -8.9262256
       }
     },
+    "STN": {
+      "name": "London Stansted Airport",
+      "shortName": "Stansted",
+      "location": {
+        "latitude": 51.886378,
+        "longitude": 0.2387409
+      }
+    },
     "SYD": {
       "name": "Sydney Airport",
       "shortName": "Sydney",
@@ -700,6 +708,13 @@
       ],
       "status": "current"
     },
+    {
+      "airports": [
+        "STN",
+        "CPH"
+      ],
+      "status": "current"
+    }
     {
       "airports": [
         "BHX",
