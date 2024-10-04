@@ -1,5 +1,13 @@
 {
   "airports": {
+    "ABZ": {
+      "name": "Aberdeen International Airport",
+      "shortName": "Aberdeen",
+      "location": {
+        "latitude": 57.203715,
+        "longitude": -2.2027898
+      }
+    },
     "AGP": {
       "name": "Málaga Costa del Sol Airport",
       "shortName": "Málaga",
@@ -718,6 +726,13 @@
     {
       "airports": [
         "BHX",
+        "ABZ"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "BHX",
         "DUB"
       ],
       "status": "current"
@@ -873,6 +888,13 @@
       "airports": [
         "AMS",
         "KEF"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "AMS",
+        "ABZ"
       ],
       "status": "current"
     },
