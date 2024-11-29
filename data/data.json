@@ -568,6 +568,14 @@
         "longitude": 151.1730877
       }
     },
+    "TFU": {
+      "name": "Chengdu Tianfu International Airport",
+      "shortName": "Chengdu Tianfu",
+      "location": {
+        "latitude": 30.3141952,
+        "longitude": 104.4418599
+      }
+    },
     "TLH": {
       "name": "Tallahassee International Airport",
       "shortName": "Tallahassee",
