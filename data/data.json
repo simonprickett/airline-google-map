@@ -620,6 +620,13 @@
   "flights": [
     {
       "airports": [
+        "AKL",
+        "CHC"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
         "WLG",
         "AKL"
       ],
@@ -887,6 +894,27 @@
     {
       "airports": [
         "LHR",
+        "HKG"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "LHR",
+        "TFU"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "TFU",
+        "HKG"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "AKL",
         "HKG"
       ],
       "status": "current"
