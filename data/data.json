@@ -568,6 +568,14 @@
         "longitude": 151.1730877
       }
     },
+    "TFU": {
+      "name": "Chengdu Tianfu International Airport",
+      "shortName": "Chengdu Tianfu",
+      "location": {
+        "latitude": 30.3141952,
+        "longitude": 104.4418599
+      }
+    },
     "TLH": {
       "name": "Tallahassee International Airport",
       "shortName": "Tallahassee",
@@ -618,6 +626,13 @@
     }
   },
   "flights": [
+    {
+      "airports": [
+        "AKL",
+        "CHC"
+      ],
+      "status": "current"
+    },
     {
       "airports": [
         "WLG",
@@ -881,6 +896,34 @@
       "airports": [
         "LHR",
         "VIE"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "LHR",
+        "HKG"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "LHR",
+        "TFU"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "TFU",
+        "HKG"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "AKL",
+        "HKG"
       ],
       "status": "current"
     },
