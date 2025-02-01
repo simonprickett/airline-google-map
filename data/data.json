@@ -104,6 +104,14 @@
         "longitude": -76.6705809
       }
     },
+    "CDG": {
+        "name": "Paris Charles-de-Gaulle",
+        "shortName": "Paris CDG",
+        "location": {
+            "latitude": 49.0050871,
+            "longitude": 2.5711249
+        }
+    },
     "CHC": {
       "name": "Christchurch International Airport",
       "shortName": "Christchurch",
@@ -424,6 +432,14 @@
         "longitude": -122.2219368
       }
     },
+    "OPO": {
+        "name": "Francisco Sá Carneiro Airport",
+        "shortName": "Porto",
+        "location": {
+            "latitude": 41.2474032,
+            "longitude": -8.6832387
+        }
+    },
     "ORD": {
       "name": "Chicago O'Hare International Airport",
       "shortName": "Chicago O'Hare",
@@ -626,6 +642,27 @@
     }
   },
   "flights": [
+    {
+      "airports": [
+          "BHX",
+          "CDG"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+          "CDG",
+          "OPO"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+          "OPO",
+          "AMS"
+      ],
+      "status": "current"
+    },
     {
       "airports": [
         "AKL",
