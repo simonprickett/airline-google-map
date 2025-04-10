@@ -639,9 +639,24 @@
         "latitude": -45.0209721,
         "longitude": 168.7377341
       }
+    },
+    "ZRH": {
+      "name": "Zurich Airport",
+      "shortName": "Zurich",
+      "location": {
+        "latitude": 47.4556824,
+        "longitude": 8.5583601
+      }
     }
   },
   "flights": [
+    {
+      "airports": [
+        "BHX",
+        "ZRH"
+      ],
+      "status": "current"
+    },
     {
       "airports": [
           "BHX",
@@ -1108,6 +1123,13 @@
       "airports": [
         "SFO",
         "SEA"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "IAD",
+        "ZRH"
       ],
       "status": "current"
     },
