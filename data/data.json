@@ -995,6 +995,13 @@
     },
     {
       "airports": [
+        "AMS",
+        "GVA"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
         "FRA",
         "GVA"
       ],
