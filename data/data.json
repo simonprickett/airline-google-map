@@ -48,6 +48,14 @@
         "longitude": -84.4298888
       }
     },
+    "BER": {
+      "name": "Berlin Brandenburg",
+      "shortName": "Berlin",
+      "location": {
+        "latitude": 52.364556,
+        "longitude": 13.5049712
+      }
+    },
     "BGI": {
       "name": "Grantley Adams International Airport",
       "shortName": "Barbados",
@@ -650,6 +658,13 @@
     }
   },
   "flights": [
+    {
+      "airports": [
+        "AMS",
+        "BER"
+      ],
+      "status": "current"
+    },
     {
       "airports": [
         "BHX",
