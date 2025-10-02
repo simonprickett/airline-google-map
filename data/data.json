@@ -296,6 +296,14 @@
         "longitude": 1.3690345
       }
     },
+    "ICN": {
+      "name": "Seoul Incheon",
+      "shortName": "Seoul Incheon",
+      "location": {
+        "latitude": 37.458666,
+        "longitude": 126.439393
+      }
+    },
     "JFK": {
       "name": "John F. Kennedy International Airport",
       "shortName": "New York JFK",
@@ -851,6 +859,13 @@
       "airports": [
         "MAN",
         "UVF"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "LHR",
+        "ICN"
       ],
       "status": "current"
     },
