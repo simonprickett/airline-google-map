@@ -48,6 +48,14 @@
         "longitude": -84.4298888
       }
     },
+    "BCN": {
+      "name": "Barcelona El Prat",
+      "shortName": "Barcelona",
+      "location": {
+        "latitude": 41.3223687,
+        "longitude": 2.0180844
+      }
+    },
     "BER": {
       "name": "Berlin Brandenburg",
       "shortName": "Berlin",
@@ -666,6 +674,20 @@
     }
   },
   "flights": [
+    {
+      "airports": [
+        "BHX",
+        "BCN"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "AMS",
+        "BCN"
+      ],
+      "status": "current"
+    },
     {
       "airports": [
         "AMS",
