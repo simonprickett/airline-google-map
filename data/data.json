@@ -40,6 +40,14 @@
         "longitude": 4.7592543
       }
     },
+    "ATH": {
+      "name": "Athens International Airport",
+      "shortName": "Athens",
+      "location": {
+        "latitude": 37.9415988,
+        "longitude": 23.9451522
+      }
+    },
     "ATL": {
       "name": "Atlanta Hartsfield-Jackson International Airport",
       "shortName": "Atlanta",
@@ -310,6 +318,14 @@
       "location": {
         "latitude": 37.458666,
         "longitude": 126.439393
+      }
+    },
+    "IST": {
+      "name": "Istanbul Airport",
+      "shortName": "Istanbul",
+      "location": {
+        "latitude": 41.2629652,
+        "longitude": 28.7377454
       }
     },
     "JFK": {
@@ -674,6 +690,20 @@
     }
   },
   "flights": [
+    {
+      "airports": [
+        "BHX",
+        "IST"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "IST",
+        "ATH"
+      ],
+      "status": "current"
+    },
     {
       "airports": [
         "BHX",
