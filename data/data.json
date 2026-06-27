@@ -24,6 +24,14 @@
         "longitude": 174.7828471
       }
     },
+    "AUH": {
+      "name": "Zayed International Airport",
+      "shortName": "Abu Dhabi",
+      "location": {
+        "latitude": 24.4400793,
+        "longitude": 54.6240162
+      }
+    },
     "AUS": {
       "name": "Austin-Bergstrom International Airport",
       "shortName": "Austin",
@@ -278,6 +286,14 @@
       "location": {
         "latitude": 46.2370097,
         "longitude": 6.1069677
+      }
+    },
+    "HAN": {
+      "name": "Noi Bai International Airport",
+      "shortName": "Hanoi",
+      "location": {
+        "latitude": 21.216816,
+        "longitude": 105.7861108
       }
     },
     "HKG": {
@@ -560,8 +576,16 @@
         "longitude": -122.3811494
       }
     },
+    "SGN": {
+      "name": "Tan Son Nhat International Airport",
+      "shortName": "Ho Chi Minh City",
+      "location": {
+        "latitude": 10.8124683,
+        "longitude": 106.6543966
+      }
+    },
     "SIN": {
-      "name": "Singaport Changi Airport",
+      "name": "Singapore Changi Airport",
       "shortName": "Singapore",
       "location": {
         "latitude": 1.3644256,
@@ -690,6 +714,27 @@
     }
   },
   "flights": [
+    {
+      "airports": [
+        "LHR",
+        "AUH"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "AUH",
+        "HAN"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
+        "HAN",
+        "SGN"
+      ],
+      "status": "current"
+    },
     {
       "airports": [
         "BHX",
