@@ -1136,6 +1136,13 @@
     },
     {
       "airports": [
+        "FRA",
+        "VIE"
+      ],
+      "status": "current"
+    },
+    {
+      "airports": [
         "SJU",
         "BGI"
       ],
